@@ -7,7 +7,6 @@ function Footer() {
       <p className="animate-pulse text-indigo-400 mb-8 text-lg">
         <a
           rel="noreferrer"
-          rel="nofollow"
           target="_blank"
           href="https://github.com/web2feel/frontend-interviews/blob/main/CONTRIBUTE.md"
         >
@@ -18,7 +17,6 @@ function Footer() {
         Developed by Jinson Abraham | Find me on{" "}
         <a
           rel="noreferrer"
-          rel="nofollow"
           target="_blank"
           href="https://github.com/web2feel/frontend-interviews"
         >
@@ -27,21 +25,11 @@ function Footer() {
       </p>
       <p>
         Built with{" "}
-        <a
-          rel="noreferrer"
-          rel="nofollow"
-          target="_blank"
-          href="https://nextjs.org/"
-        >
+        <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
           NextJS
         </a>{" "}
         and{" "}
-        <a
-          rel="noreferrer"
-          rel="nofollow"
-          target="_blank"
-          href="https://tailwindcss.com/"
-        >
+        <a rel="noreferrer" target="_blank" href="https://tailwindcss.com/">
           TailwindCSS
         </a>
       </p>
