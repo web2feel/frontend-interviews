@@ -13,7 +13,7 @@ Are you preparing for a technical interview for a frontend developer post? This 
 
 First clone/fork the repo and cd into it. 
 ```
-git clone https://github.com/web2feel/frontend-interviews
+git clone https://github.com/web2feel/frontend-interviews.git
 cd frontend-interviews
 ```
 Rename the `.env.local.example` file to `.env.local`
@@ -32,4 +32,3 @@ Install the dependencies and run the dev server
 npm install
 npm run dev
 ```
-## Submit your question
