@@ -1,6 +1,6 @@
 # How to contribute questions?
 
-1. Fork this repository (Click the Fork button in the top right of this page, click your Profile Image).
+1. Fork this repository (Click the Fork button in the top right of this page).
 
 2. Clone **your fork** down to your local machine.
 
@@ -14,7 +14,7 @@ git checkout -b your-branch-name
 ```
 4. Create your question file
 
-Questions are located as **markdown** files in the `/questions` directory. To add your question, create a new markdown file in the `/questions` directory, and give it an appropriate filename that suits the content. 
+Questions are stored as `.md` (*markdown*) files in the `/questions` directory. To add your question, create a new markdown file in the `/questions` directory, and give it an appropriate filename that suits the content. 
 
 Use the following format to create your question file.
 ```
@@ -23,7 +23,7 @@ title: "Define anonymous function"
 level : 1
 category: "JS"
 ---
-It is a function that has no name. These functions are declared dynamically at runtime using the function operator instead of the function declaration. The function operator is more flexible than a function declaration. It can be easily used in the place of an expression.
+It is a function that has no name. These functions are declared dynamically at runtime using the function operator instead of the function declaration. 
 ```
 The section between the two **`---`** contains the metadata of the page. The metadata contains the title, difficulty level, and frontend tech category information. 
 
