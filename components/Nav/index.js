@@ -4,11 +4,11 @@ import Menu from "./Menu";
 import Image from "next/image";
 function Nav() {
   return (
-    <div className="px-6 pt-10 pb-4 flex flex-col items-center">
-      <div className="text-fuchsia-100 mb-6">
+    <div className="px-6 pt-10 pb-4 flex flex-col md:flex-row items-center justify-between">
+      <div className="text-fuchsia-100 mb-6 md:mb-0 ">
         <>
           <Link href={"/"}>
-            <h1 className="cursor-pointer text-center mx-auto font-sans w-48 sm:w-64 md:w-80">
+            <h1 className="cursor-pointer font-sans w-56 mx-auto md:mx-0 ">
               <Image
                 src={`/logo.svg`}
                 alt="FrontendQuiz"
@@ -17,8 +17,8 @@ function Nav() {
               />
             </h1>
           </Link>
-          <span className="block md:text-lg text-white tracking-wide">
-            Frontend-Tech Interview Questions
+          <span className="block text-sm text-white tracking-wide">
+            Frontend Interview Questions
           </span>
         </>
       </div>

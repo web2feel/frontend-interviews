@@ -64,16 +64,16 @@ function QuestionPage({
           </Link>
 
           <div
-            className={`p-6  bg-opacity-40 bg-black rounded border-t-4 shadow border-opacity-80 ${tech(
+            className={`p-6 bg-opacity-40 bg-black rounded border-t-4 shadow border-opacity-80 ${tech(
               category
             )}`}
           >
             <Meta category={category} level={level} />
             <h2
-              className="prose text-xl text-indigo-200 "
+              className="prose text-xl max-w-none text-indigo-200 "
               dangerouslySetInnerHTML={{ __html: marked(title) }}
             />
-            <div className="prose mt-4 pt-2 max-w-4xl text-gray-300 border-t border-indigo-600 border-opacity-30">
+            <div className="prose mt-4 pt-2 max-w-none text-gray-300 border-t border-indigo-600 border-opacity-30">
               <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
             </div>
           </div>
