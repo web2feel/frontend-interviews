@@ -29,4 +29,4 @@ function Nav() {
   );
 }
 
-export default React.memo(Nav);
+export default Nav;

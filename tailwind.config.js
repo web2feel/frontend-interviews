@@ -19,6 +19,30 @@ module.exports = {
               padding: theme("spacing.1"),
               borderRadius: theme("spacing.1"),
             },
+            strong: {
+              color: theme("colors.gray.300"),
+            },
+            a: {
+              color: theme("colors.gray.300"),
+            },
+            h1: {
+              color: theme("colors.gray.300"),
+            },
+            h2: {
+              color: theme("colors.gray.300"),
+            },
+            h3: {
+              color: theme("colors.gray.300"),
+            },
+            h4: {
+              color: theme("colors.gray.300"),
+            },
+            thead: {
+              color: theme("colors.gray.100"),
+            },
+            blockquote: {
+              color: theme("colors.gray.100"),
+            },
           },
         },
       }),

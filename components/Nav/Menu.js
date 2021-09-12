@@ -1,7 +1,15 @@
+import React, { useContext } from "react";
+import { SmoothScrollContext } from "../../context/SmootScroll.context";
 import Link from "next/link";
-import React from "react";
 import { useRouter } from "next/router";
 function Menu() {
+  const { scroll } = useContext(SmoothScrollContext);
+  const handleClick = () => {    
+    setTimeout(() => {
+      scroll.update();
+    }, 300);
+    console.log("clicked")
+  };
   const menu = ["CSS", "HTML", "JS", "ReactJS"];
   const router = useRouter();
   const {
@@ -19,6 +27,7 @@ function Menu() {
           return (
             <Link key={i} href={`/category/${item}`}>
               <li
+                onClick={handleClick}
                 className={` border border-opacity-0 hover:text-white cursor-pointer transform duration-300 px-3 py-1 rounded ${active(
                   item
                 )}`}
@@ -29,7 +38,6 @@ function Menu() {
           );
         })}
       </ul>
-     
     </>
   );
 }

@@ -1,6 +1,6 @@
 ---
 title: "What is the difference between synchronous and asynchronous code in JavaScript?"
-level: 3
+level: 2
 category: "JS"
 ---
 
