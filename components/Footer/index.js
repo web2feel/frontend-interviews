@@ -8,7 +8,7 @@ function Footer() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/web2feel/frontend-interviews/blob/main/CONTRIBUTE.md"
+          href="https://github.com/web2feel/frontend-interviews/blob/main/CONTRIBUTING.md"
         >
           Submit a Question
         </a>
