@@ -20,8 +20,8 @@ function CategoryPage({ categoryQs }) {
       </Head>
       <Layout>
         <div className="my-6 ">
-          {categoryQs.map((x, i) => {
-            return <Question key={i} question={x} />;
+          {categoryQs.map((item, i) => {
+            return <Question key={item.slug} question={item} />;
           })}
         </div>
       </Layout>

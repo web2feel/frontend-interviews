@@ -1,5 +1,5 @@
-import React,{useContext} from "react";
-import {SmoothScrollContext} from "../../context/SmootScroll.context"
+import React, { useContext } from "react";
+import { SmoothScrollContext } from "../../context/SmootScroll.context";
 function Toggle({ show, setShow, category }) {
   const tech = (category) => {
     switch (category) {
@@ -20,12 +20,12 @@ function Toggle({ show, setShow, category }) {
         break;
     }
   };
-  const {scroll} = useContext(SmoothScrollContext)
+  const { scroll } = useContext(SmoothScrollContext);
   const handleShow = () => {
     setShow((show) => (show = !show));
     setTimeout(() => {
       scroll.update();
-    }, 100);
+    }, 200);
   };
   return (
     <button

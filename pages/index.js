@@ -10,12 +10,11 @@ export default function Home({ questions }) {
     <SmoothScrollProvider options={{ smooth: true }}>
       <Head>
         <title>Frontend Development: Interview Questions</title>
-
       </Head>
       <Layout>
         <div className="my-6 ">
           {questions.map((item, i) => {
-            return <Question key={i} question={item} />;
+            return <Question key={item.slug} question={item} />;
           })}
         </div>
       </Layout>

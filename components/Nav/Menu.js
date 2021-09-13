@@ -4,11 +4,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 function Menu() {
   const { scroll } = useContext(SmoothScrollContext);
-  const handleClick = () => {    
+  const handleClick = () => {
     setTimeout(() => {
       scroll.update();
     }, 300);
-    console.log("clicked")
   };
   const menu = ["CSS", "HTML", "JS", "ReactJS"];
   const router = useRouter();

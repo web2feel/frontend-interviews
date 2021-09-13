@@ -1,11 +1,15 @@
 import "tailwindcss/tailwind.css";
-import "../styles/style.css"
+import "../styles/style.css";
 function MyApp({ Component, pageProps }) {
   return (
-    <main data-scroll-container>
-    <div className="bg-gradient-to-r from-gray-900 to-indigo-900 font-mono min-h-screen">
-      <Component {...pageProps} />
-    </div>
+    <main
+      data-scroll-container
+      className="bg-gradient-to-r from-gray-900 to-indigo-900 relative"
+      id="main-wrap"
+    >
+      <div className="font-mono min-h-screen">
+        <Component {...pageProps} />
+      </div>
     </main>
   );
 }

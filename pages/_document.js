@@ -26,7 +26,7 @@ class MyDocument extends Document {
             content="Community submitted Interview Questions on different frontend technologies"
           />
         </Head>
-        <body>
+        <body className="bg-gradient-to-r from-gray-900 to-indigo-900">
           <Main />
           <NextScript />
         </body>

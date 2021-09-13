@@ -7,7 +7,9 @@ function Content({ answer, category, title, slug }) {
   return (
     <div className="mt-4">
       {show && (
-        <div className="pt-2 leading-relaxed text-gray-300 prose max-w-none border-t border-indigo-600 border-opacity-30">
+        <div
+          className={`pt-2 leading-relaxed text-gray-300 prose max-w-none border-t border-indigo-600 border-opacity-30`}
+        >
           <div dangerouslySetInnerHTML={{ __html: marked(answer) }}></div>
         </div>
       )}
