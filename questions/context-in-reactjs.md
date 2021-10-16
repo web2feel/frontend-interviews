@@ -9,5 +9,5 @@ Context provides a way to pass data through the component tree without having to
 For example, authenticated user, locale preference, UI theme need to be accessed in the application by many components.
 
 ```js
-const {Provider, Consumer} = React.createContext(defaultValue)
+const { Provider, Consumer } = React.createContext(defaultValue);
 ```

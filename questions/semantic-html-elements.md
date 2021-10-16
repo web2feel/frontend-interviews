@@ -6,9 +6,10 @@ category: "HTML"
 
 A semantic element clearly describes its meaning to both the browser and the developer.
 
-When elements like `<div>` and `<span>` tells nothing about its content, semantic elements like `<header>`, `<article>`, `<footer>` clearly defines their content. 
+When elements like `<div>` and `<span>` tells nothing about its content, semantic elements like `<header>`, `<article>`, `<footer>` clearly defines their content.
 
 Example:
+
 ```
 <header>
 <nav>
@@ -17,4 +18,3 @@ Example:
 <aside>
 <footer>
 ```
-

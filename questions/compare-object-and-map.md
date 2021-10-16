@@ -1,8 +1,9 @@
 ---
 title: "How do you compare Object and Map "
-level : 2
+level: 2
 category: "JS"
 ---
+
 **Objects** are similar to **Maps** in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.
 
 - The keys of an Object are Strings and Symbols, whereas they can be any value for a Map, including functions, objects, and any primitive.

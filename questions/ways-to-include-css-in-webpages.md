@@ -1,14 +1,16 @@
 ---
 title: "What are the different ways to include CSS in webpages?"
-level : 1
+level: 1
 category: "CSS"
 ---
+
 1. **External Style Sheet:** An external file linked to your HTML document: Using link tag, we can link the style sheet to the HTML page.
 
 ```
 <link rel="stylesheet" type="text/css" href="style.css" />
 
 ```
+
 2. **Embed CSS with a style tag:** A set of CSS styles entered directly on your HTML page.
 
 ```
@@ -25,6 +27,7 @@ category: "CSS"
 <h2 style="color:red;">Danger</h2>
 
 ```
+
 4. **@import rule:** The `@import` rule allows you to import a style sheet into another style sheet. The `@import` rule must be at the top of the document.
 
 ```

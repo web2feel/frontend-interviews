@@ -21,15 +21,15 @@ There are five different types of operations that return NaN:
 ```javascript
 function sanitise(x) {
   if (isNaN(x)) {
-    return NaN
+    return NaN;
   }
-  return x
+  return x;
 }
 
-console.log(sanitise("1"))
+console.log(sanitise("1"));
 // expected output: "1"
 
-console.log(sanitise("NotANumber"))
+console.log(sanitise("NotANumber"));
 // expected output: NaN
 ```
 

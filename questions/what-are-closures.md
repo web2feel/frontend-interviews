@@ -8,13 +8,13 @@ A closure is the combination of a function bundled together (enclosed) with refe
 
 ```js
 const outerFun = (a) => {
-    let b = 10;
-    // inner func can use variable/parameter of outer funcion
-    const innerFun = () => {
-        let sum = a + b;
-        console.log(sum);
-    };
-    return innerFun;
+  let b = 10;
+  // inner func can use variable/parameter of outer funcion
+  const innerFun = () => {
+    let sum = a + b;
+    console.log(sum);
+  };
+  return innerFun;
 };
 let inner = outerFun(5);
 inner();

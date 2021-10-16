@@ -1,4 +1,4 @@
-import React, {useContext } from "react";
+import React, { useContext } from "react";
 import { SmoothScrollContext } from "../../context/SmootScroll.context";
 function ScrollTop() {
   const { scroll } = useContext(SmoothScrollContext);

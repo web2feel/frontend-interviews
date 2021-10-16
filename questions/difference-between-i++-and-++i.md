@@ -7,6 +7,7 @@ category: "JS"
 Both increment the variable value by 1. The difference is what they evaluate to.
 
 The postfix increment operator evaluates to the value before it was incremented.
+
 ```
 let i = 0
 i++ // evaluates to 0

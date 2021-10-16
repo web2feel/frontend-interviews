@@ -12,10 +12,10 @@ Conceptually hoisting is often presented as the interpreter "splitting variable 
 
 ```javascript
 function catName(name) {
-  console.log("My cat's name is " + name)
+  console.log("My cat's name is " + name);
 }
 
-catName("Tiger")
+catName("Tiger");
 
 /*
 The result of the code above is: "My cat's name is Tiger"
@@ -25,10 +25,10 @@ The result of the code above is: "My cat's name is Tiger"
 The above code snippet is how you would expect to write the code for it to work. Now, let's see what happens when we call the function before we write it:
 
 ```javascript
-catName("Chloe")
+catName("Chloe");
 
 function catName(name) {
-  console.log("My cat's name is " + name)
+  console.log("My cat's name is " + name);
 }
 /*
 The result of the code above is: "My cat's name is Chloe"
